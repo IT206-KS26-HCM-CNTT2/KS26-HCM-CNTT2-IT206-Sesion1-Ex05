@@ -1,0 +1,27 @@
+PHẦN 1: PHÂN TÍCH 2 VI PHẠM NGHIÊM TRỌNG
+Hành động của Trưởng phòng Nhân sự MartX mắc phải hai sai phạm cốt lõi về chính sách quản trị AI (AI Policy) và đạo đức nghề nghiệp:
+1. Thoái thác trách nhiệm giải trình và vi phạm nguyên tắc "Human-in-the-loop" (Con người kiểm duyệt cuối cùng):
+Bản chất sai phạm: Trưởng phòng đã biến AI từ công cụ hỗ trợ ra quyết định (Decision Support) thành chủ thể ra quyết định tự động hoàn toàn (Automated Decision-Making) đối với một vấn đề có tác động nghiêm trọng đến sinh kế của người lao động.
+Hệ lụy đạo đức & pháp lý: AI không có tư cách pháp nhân để chịu trách nhiệm trước pháp luật lao động hay giải trình khi có khiếu nại. Câu trả lời "Do AI phân tích khách quan nên tôi không can thiệp" là sự thoái thác trách nhiệm của người quản lý. Theo quy định của Bộ luật Lao động, quyết định sa thải phải dựa trên căn cứ pháp lý rõ ràng, quy trình kỷ luật minh bạch và sự đánh giá có trách nhiệm của con người, không thể phó mặc cho thuật toán.
+2. Bỏ qua rủi ro định kiến dữ liệu (Data Bias), thiếu bối cảnh con người và vi phạm bảo mật:
+Bản chất sai phạm: Dữ liệu KPI và lịch sử chấm công thô không phản ánh toàn diện năng lực hay lý do đằng sau các con số. Ngoài ra, việc dán trực tiếp dữ liệu nhân sự nội bộ lên công cụ AI công cộng còn tiềm ẩn nguy cơ rò rỉ dữ liệu cá nhân.
+Hệ lụy đạo đức & công bằng: Thuật toán chỉ tính toán dựa trên bề mặt số liệu mà không hiểu ngữ cảnh thực tế. Ví dụ: một nhân viên có số ngày nghỉ nhiều do nghỉ thai sản, nghỉ ốm theo chế độ bảo hiểm, hoặc có KPI thấp vì được giao phụ trách thị trường mới khó khăn hơn đồng nghiệp sẽ bị AI xếp vào nhóm "kém nhất". Việc tin tưởng tuyệt đối vào số liệu thô mà không rà soát bối cảnh khiến quyết định sa thải trở nên bất công và dễ dẫn đến tranh chấp pháp lý cho MartX.
+PHẦN 2: SƠ ĐỒ QUY TRÌNH PHỐI HỢP 3 BƯỚC CHUẨN AN TOÀN CHO MARTX
+BƯỚC 1: CHUẨN HÓA & NHẬP DỮ LIỆU
+Ẩn danh hóa thông tin định danh cá nhân (PII) trước khi đưa vào AI.
+Làm sạch dữ liệu, loại trừ các biến số đặc thù (nghỉ thai sản, ốm đau...).
+BƯỚC 2: AI PHÂN TÍCH & ĐỀ XUẤT (Decision Support)
+AI tổng hợp xu hướng, phát hiện bất thường và cảnh báo nhóm hiệu suất thấp.
+Yêu cầu AI xuất kèm lý do/chỉ số dẫn chứng (Explainable AI), KHÔNG ra lệnh sa thải.
+BƯỚC 3: HUMAN-IN-THE-LOOP THẨM ĐỊNH & KÝ QUYẾT ĐỊNH
+HR & Quản lý trực tiếp đối chiếu kết quả AI với hồ sơ thực tế và bối cảnh công việc.
+Tổ chức trao đổi/đánh giá 1-1 với nhân viên theo đúng quy trình nội bộ & Luật Lao động.
+ĐẦU RA: QUYẾT ĐỊNH CHÍNH THỨC
+Trưởng phòng Nhân sự / Ban Giám đốc chịu trách nhiệm ký duyệt phương án cuối cùng (Đào tạo lại / Điều chuyển / Kỷ luật hoặc Chấm dứt hợp đồng hợp pháp).
+CHI TIẾT TRIỂN KHAI TỪNG BƯỚC:
+Bước 1: Chuẩn hóa và Bảo mật dữ liệu đầu vào
+Nhân sự tuyệt đối không dán trực tiếp tên, số CCCD, mức lương hay thông tin nhạy cảm lên các nền tảng AI công cộng. Dữ liệu cần được mã hóa theo ID nhân viên và lọc bỏ các yếu tố ngoại lệ hợp pháp (nghỉ phép năm, nghỉ chế độ) để tránh làm nhiễu thuật toán.
+Bước 2: AI phân tích và gợi ý có giải thích
+Thay đổi câu lệnh (prompt) từ "lập danh sách để sa thải" sang "phân tích các điểm nghẽn hiệu suất và liệt kê các chỉ số sụt giảm bất thường kèm nguyên nhân số liệu". AI chỉ đóng vai trò khoanh vùng dữ liệu cần lưu ý giúp tiết kiệm thời gian sàng lọc.
+Bước 3: Con người thẩm định (Human-in-the-loop) và Ra quyết định
+Đây là chốt chặn bắt buộc. Trưởng phòng Nhân sự phối hợp với Quản lý bộ phận trực tiếp để xác minh nguyên nhân thực tế đằng sau các con số AI cảnh báo, thực hiện quy trình đánh giá/nhắc nhở bằng văn bản theo đúng Nội quy lao động của MartX trước khi đặt bút ký bất kỳ quyết định nhân sự nào.
